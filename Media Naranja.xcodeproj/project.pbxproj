@@ -14,6 +14,8 @@
 		D7C346DE1BE2690900B66015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C346DC1BE2690900B66015 /* LaunchScreen.storyboard */; };
 		D7C346E91BE2690900B66015 /* Media_NaranjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C346E81BE2690900B66015 /* Media_NaranjaTests.swift */; };
 		D7C346F41BE2690900B66015 /* Media_NaranjaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C346F31BE2690900B66015 /* Media_NaranjaUITests.swift */; };
+		D7C347021BE2995B00B66015 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C347011BE2995B00B66015 /* BirthdayViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D7C347041BE29B6900B66015 /* LoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C347031BE29B6900B66015 /* LoveViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D7C346EF1BE2690900B66015 /* Media NaranjaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Media NaranjaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C346F31BE2690900B66015 /* Media_NaranjaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media_NaranjaUITests.swift; sourceTree = "<group>"; };
 		D7C346F51BE2690900B66015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C347011BE2995B00B66015 /* BirthdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
+		D7C347031BE29B6900B66015 /* LoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				D7C346DA1BE2690900B66015 /* Assets.xcassets */,
 				D7C346DC1BE2690900B66015 /* LaunchScreen.storyboard */,
 				D7C346DF1BE2690900B66015 /* Info.plist */,
+				D7C347011BE2995B00B66015 /* BirthdayViewController.swift */,
+				D7C347031BE29B6900B66015 /* LoveViewController.swift */,
 			);
 			path = "Media Naranja";
 			sourceTree = "<group>";
@@ -255,8 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7C347041BE29B6900B66015 /* LoveViewController.swift in Sources */,
 				D7C346D61BE2690900B66015 /* ViewController.swift in Sources */,
 				D7C346D41BE2690900B66015 /* AppDelegate.swift in Sources */,
+				D7C347021BE2995B00B66015 /* BirthdayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +491,7 @@
 				D7C346FA1BE2690900B66015 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7C346FB1BE2690900B66015 /* Build configuration list for PBXNativeTarget "Media NaranjaTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +500,7 @@
 				D7C346FD1BE2690900B66015 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7C346FE1BE2690900B66015 /* Build configuration list for PBXNativeTarget "Media NaranjaUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +509,7 @@
 				D7C347001BE2690900B66015 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
